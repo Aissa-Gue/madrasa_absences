@@ -1,0 +1,157 @@
+/* general */
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: snow;
+}
+body,html {
+        height: 100%;
+        margin: 0;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.my_nav_bg{
+    /* background-color: darkslateblue; */
+    background-color: teal;
+}
+
+.my_font{
+    font-size: 18px;
+}
+
+/* login */
+.my_header_img{
+    height: 220px;
+    width: 780px;
+    border-radius:  0 0 25px 25px;
+}
+
+.background_img_login {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(224, 255, 245, 0.3)),
+    url(../img/cover.png) bottom / cover no-repeat fixed;
+    height: 100vh;
+}
+
+.my_radious{
+    border-radius: 15px;
+}
+
+.my_form_bg{
+    background-color: rgba(255, 255, 255, 0.8)
+}
+/* database */
+.my_background_database{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(224, 255, 245, 0.5)),
+    url(../img/preview.jpg) center / cover no-repeat fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 90.4%;
+}
+/* home */
+.my_background_home{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(224, 255, 245, 0.9)),
+    url(../img/preview.jpg) center / cover no-repeat fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 88%;
+}
+/* search */
+.my_background_search{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(224, 255, 245, 0.9)),
+    url(../img/preview.jpg) center / cover no-repeat fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 90.4%;
+}
+/* preview */
+.my_background_preview{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(224, 255, 245, 0.5)),
+    url(../img/preview.jpg) center / cover no-repeat fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 90.5%;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.8);
+    border: whitesmoke 5px double;
+    border-radius: 15px;
+}
+
+.my_red{
+    color: red;
+}
+
+.my_title{
+color: brown;
+}
+
+/* print */
+.my_background_print{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(224, 255, 245, 0.7)),
+    url(../img/print.jpg) center / cover no-repeat fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 88vh;
+}
+
+.my_est_font1{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+}
+.my_est_font2{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 18px;
+}
+.my_mr_70{
+    margin-right: 70%;
+}
+.my_zoom_out{
+    zoom: 110%;
+}
+.my_mt{
+    margin-top: 10px;
+}
+.my_position_fixed{
+position: fixed;
+bottom: 5%;
+left: 3%;
+}
+.my_hidden1{
+    display: none;
+}
+
+@media print {
+    .my_border{
+        border: 5px slategray double;
+    }
+    .my_zoom_out{
+        zoom: 98%;
+    }
+    .my_mt{
+        margin-top: 0px;
+    }
+    .my_hidden{
+        display: none;
+    }
+    .my_hidden1{
+        display: block;
+    }
+    .my_text_w{
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0 0 0 #ccc;
+    }
+    @media print and (-webkit-min-device-pixel-ratio:0) {
+        .my_text_w {
+        color: #ccc;
+        -webkit-print-color-adjust: exact;
+        }
+    }
+    .col-sm-auto {
+        flex: 0 0 auto;
+        width: auto;
+    }
+}
+
