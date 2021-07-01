@@ -3,16 +3,16 @@
 error_reporting(E_ERROR | E_PARSE);
 
 //**** Developement db ****//
-//$servername = "localhost";
-//$username = "root";
-//$password = "";
-//$dbname = "absences_db";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "absences_db";
 
 //**** Production db ****//
-$servername = "remotemysql.com";
-$username = "JIp30eTyr1";
-$password = "O2DI83iL9t";
-$dbname = "JIp30eTyr1";
+//$servername = "remotemysql.com";
+//$username = "JIp30eTyr1";
+//$password = "O2DI83iL9t";
+//$dbname = "JIp30eTyr1";
 
 $con = mysqli_connect($servername, $username, $password);
 $db_selected = mysqli_select_db($con, $dbname);
